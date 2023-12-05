@@ -1,0 +1,57 @@
+#navidad{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    border: 0.1px solid white;
+}
+
+.cabeza{
+    background-color: sandybrown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -200px;
+    right: 0px;
+    top: 150px;
+    margin: auto;
+}
+
+.cuerpo{
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    left: -200px;
+    right: 0px;
+    top: 250px;
+    margin: auto;
+}
+
+.brazo-izq{
+background-color: green ;
+position: absolute;
+}
+
+.brazo-der{
+
+}
+
+@keyframes brazo-izq{
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25%{
+        transform: rotate(30eg)
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
