@@ -3,7 +3,36 @@
     width: 1000px;
     height: 1000px;
     margin: auto;
+    left: -400px;
     border: 0.1px solid white;
+}
+
+.pelo{
+    transform: rotate(0deg);
+    background-color: black;
+    position: absolute;
+    width: 60px;
+    height: 140px;
+    left: -290px;
+    top: 100px;
+    right: 0px;
+    margin: auto;
+    border-radius: 10%;
+    z-index: 3;
+}
+
+.pelo1{
+    transform: rotate(90deg);
+    background-color: black;
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    left: -250px;
+    top: 90px;
+    right: 0px;
+    margin: auto;
+    border-radius: 10%;
+    z-index: 3;
 }
 
 .cabeza{
@@ -19,7 +48,7 @@
 }
 
 .cuerpo{
-    background-color: gray;
+    background-color: blue;
     position: absolute;
     width: 70px;
     height: 300px;
@@ -31,10 +60,47 @@
     border-radius: 10%;
 }
 
+.pantalon{
+    background-color: gray;
+    position: absolute;
+    width: 70px;
+    height: 150px;
+    left: -200px;
+    right: 0px;
+    top: 400px;
+    margin: auto;
+    z-index: 3;
+    border-radius: 10%;
+}
 
+.pantalon1{
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: -0px;
+    right: 0px;
+    top: -0px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10%;
+}
+
+.pantalon2{
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: -0px;
+    right: 0px;
+    top: -0px;
+    margin: auto;
+    z-index: 2;
+    border-radius: 10%;
+}
 
 .brazo-izq {
-    background-color: green;
+    background-color: sandybrown;
     position: absolute;
     width: 45px;
     height: 160px;
@@ -50,7 +116,7 @@
 }
 
 .brazo-der {
-    background-color: aqua;
+    background-color: sandybrown;
     position: absolute;
     width: 45px;
     height: 160px;
@@ -84,7 +150,7 @@
 }
 
 .pierna-der {
-    background-color: red;
+    background-color: sandybrown;
     position: absolute;
     width: 45px;
     height: 170px;
@@ -100,7 +166,7 @@
 }
 
 .pierna-izq {
-    background-color: yellow;
+    background-color: sandybrown;
     position: absolute;
     width: 45px;
     height: 170px;
@@ -130,3 +196,151 @@
     75%  {transform: translate(10px) rotate(-20deg);}
     100% {transform: translate(-10px) rotate(20deg);}
 }
+
+.arbol{
+    position: relative;
+    border: 0.1em solid black;
+    left: 1050px;
+    width: 900px;
+    height: 900px;
+    top: 130px;
+}
+
+.tronco{
+    transform: rotate(90deg);
+    bottom: 65px;
+    right: 400px;
+    position: absolute;
+    background-color: rgb(165, 17, 17);
+    height: 70px;
+    width: 200px;
+}
+
+.triangulo{
+    transform: rotate(-90deg);
+    bottom: 65px;
+    right: 370px;
+    position: absolute;
+    border-left: 250px solid green;
+    border-top: 230px solid transparent;
+    border-bottom: 230px solid transparent; 
+}
+
+.triangulo1{
+    transform: rotate(-90deg);
+    bottom: 200px;
+    right: 375px;
+    position: absolute;
+    border-left: 240px solid green;
+    border-top: 220px solid transparent;
+    border-bottom: 220px solid transparent; 
+}
+
+.triangulo2{
+    transform: rotate(-90deg);
+    bottom: 350px;
+    right: 375px;
+    position: absolute;
+    border-left: 230px solid green;
+    border-top: 210px solid transparent;
+    border-bottom: 210px solid transparent; 
+}
+
+.triangulo3{
+    transform: rotate(-90deg);
+    bottom: 480px;
+    right: 380px;
+    position: absolute;
+    border-left: 220px solid green;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent; 
+}
+
+.bola1{
+    right: 520px;
+    top: 200px;
+    position: absolute;
+    z-index: 6;
+    background-color: red;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola2{
+    right: 400px;
+    top: 250px;
+    position: absolute;
+    z-index: 6;
+    background-color: blue;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola3{
+    right: 500px;
+    top: 340px;
+    position: absolute;
+    z-index: 6;
+    background-color: yellow;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola4{
+    right: 400px;
+    top: 400px;
+    position: absolute;
+    z-index: 6;
+    background-color: purple;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola5{
+    right: 500px;
+    top: 500px;
+    position: absolute;
+    z-index: 6;
+    background-color: cyan;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola6{
+    right: 400px;
+    top: 550px;
+    position: absolute;
+    z-index: 6;
+    background-color: orangered;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola7{
+    right: 580px;
+    top: 620px;
+    position: absolute;
+    z-index: 6;
+    background-color: white;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.bola8{
+    right: 450px;
+    top: 650px;
+    position: absolute;
+    z-index: 6;
+    background-color: darkblue;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
