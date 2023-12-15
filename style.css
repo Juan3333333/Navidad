@@ -111,7 +111,6 @@
     z-index: 1;
     animation-name: brazo-izq;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
     border-radius: 10%;
 }
 
@@ -127,7 +126,6 @@
     z-index: 3;
     animation-name: brazo-der;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
     border-radius: 10%;
 }
 
@@ -160,7 +158,6 @@
     margin: auto;
     animation-name: pierna-der;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
     border-radius: 10%;
     z-index: 3;
 }
@@ -176,7 +173,6 @@
     margin: auto;
     animation-name: pierna-izq;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
     border-radius: 10%;
     z-index: 1;
 }
@@ -204,6 +200,21 @@
     width: 900px;
     height: 900px;
     top: 130px;
+    animation-name:arbol;
+    animation-delay: 8s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes arbol{
+    50%{
+        opacity: 1;
+        transition: opacity 1s ;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .tronco{
@@ -343,4 +354,7 @@
     height: 25px;
     width: 25px;
 }
+
+
+
 
